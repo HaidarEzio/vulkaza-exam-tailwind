@@ -1,0 +1,14 @@
+{
+    "name":"Spiral Gear Flower Pot",
+    "description":"Spiral design if a gear shape flower pot for some fancy plants.",
+    "colors": [
+        {
+            "name":"Black",
+            "hex":"#000000"
+        },
+        {
+            "name":"White",
+            "hex":"#FFFFFF"
+        }
+    ]
+}

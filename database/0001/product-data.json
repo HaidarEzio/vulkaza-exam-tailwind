@@ -1,0 +1,18 @@
+{
+    "name":"Radiant Blossom",
+    "description":"I designed this Radiant Blossom to be used as decoration for your desktop or work station.",
+    "colors": [
+        {
+            "name":"Bright Red",
+            "hex":"#FF0000"
+        },
+        {
+            "name":"Deep Blue",
+            "hex":"#0000AA"
+        },
+        {
+            "name":"Grass Green",
+            "hex":"#00CC00"
+        }
+    ]
+}

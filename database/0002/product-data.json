@@ -1,0 +1,18 @@
+{
+    "name":"Voronoi Spiral Centerpiece",
+    "description":"Place a tea light underneath to light up the spiral.\nJust simply flip to the opposite direction and it is a vase!\n\nPerfect as a centerpiece at weddings or other special events!",
+    "colors": [
+        {
+            "name":"Power Purple",
+            "hex":"#FF00FF"
+        },
+        {
+            "name":"Deep Blue",
+            "hex":"#0000AA"
+        },
+        {
+            "name":"Grass Green",
+            "hex":"#00CC00"
+        }
+    ]
+}

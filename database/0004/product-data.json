@@ -1,0 +1,22 @@
+{
+    "name":"Sticky Note Organizer",
+    "description":"I recently did an assessment of my workstation and its efficiency. During which, I realized there were a few key items that I always found myself reaching for, but never had a dedicated space for them. Whether it was my Airpods, drafting pencils, or sticky notes for making quick drawings. So I set out to design a unique solution. These designs offer a custom solution that will help to improve your workflow at home and work.\n\nThis design includes the files for ONLY the Sticky Note Organizer within the desk organizing series. The Sticky Note Organizer fits any standard 3”x3” note. Allowing you to easily access your notepad for capturing fleeting thoughts or drawing quick concepts. Easily peal away or replace the pad using the small notch at the front of the organizer. Order this design in any of the beautiful Matte filaments to perfectly match your workspace.",
+    "colors": [
+        {
+            "name":"Dark Red",
+            "hex":"#660000"
+        },
+        {
+            "name":"Light Blue",
+            "hex":"#8888FF"
+        },
+        {
+            "name":"Black",
+            "hex":"#000000"
+        },
+        {
+            "name":"White",
+            "hex":"#FFFFFF"
+        }
+    ]
+}
