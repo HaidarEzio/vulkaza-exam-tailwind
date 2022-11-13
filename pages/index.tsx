@@ -2,6 +2,12 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import Logo from "../public/Logo.png";
+import customProducts1 from "../database/0001/product-data.json";
+import customProducts2 from "../database/0002/product-data.json";
+import customProducts3 from "../database/0003/product-data.json";
+import customProducts4 from "../database/0004/product-data.json";
+
+const fakeData = [customProducts1, customProducts2, customProducts3, customProducts4];
 
 const Home: NextPage = () => {
   return (
@@ -17,20 +23,24 @@ const Home: NextPage = () => {
       <section>
         <h1 className="text-4xl font-bold text-center underline">Your Products</h1>
         <div className="flex flex-wrap my-5">
-          <div className="flex w-[40rem] h-[15rem] border-2 border-gray-500 p-4 ">
-            <div className="flex items-center justify-center w-1/3 h-full border-2 border-black">
-              <p>Hoverable Picture</p>
-            </div>
-            <div className="flex flex-col justify-between ml-5 grow">
-              <div className="flex flex-col">
-                <p className="text-xl font-bold">Product Name</p>
-                <p className="mt-2 text-lg">Product Description</p>
+          {fakeData.map(({ name, description, colors }) => (
+            <div className="flex w-[40rem] h-[15rem] border-2 border-gray-500 p-4 ">
+              <div className="flex items-center justify-center w-[20rem] h-full border-2 border-black">
+                <p>Hoverable Picture</p>
               </div>
-              <div className="flex justify-start gap-4">
-                <div className="w-12 h-12 bg-red-700 rounded-md"></div>
+              <div className="flex flex-col justify-between ml-5 grow">
+                <div className="flex flex-col">
+                  <p className="text-xl font-bold">{name}</p>
+                  <p className="mt-2 overflow-hidden text-lg text-ellipsis">{description}</p>
+                </div>
+                <div className="flex justify-start gap-4">
+                  {colors.map(({ name, hex }) => (
+                    <div style={{ backgroundColor: hex }} className="w-12 h-12 rounded-md"></div>
+                  ))}
+                </div>
               </div>
             </div>
-          </div>
+          ))}
         </div>
       </section>
     </div>
